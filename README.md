@@ -13,8 +13,8 @@ This project demonstrates how to control an LED on an **ESP32** using **ROS 2** 
 * The received messages contain `linear.x` and `angular.y` values.
 * The ESP32 uses `linear.x` to control the LED:
 
-  * **`linear.x > 0` → LED ON\*\*
-  * **`linear.x = 0` → LED OFF\*\*
+  * `linear.x > 0` → LED ON
+  * `linear.x = 0` → LED OFF
 
 ### 2. micro-ROS Agent in Docker
 
