@@ -10,11 +10,11 @@ char ssid_c[] = "Evolve Robotics JioFiber";
 char password_c[] = "Evolve@123";
 
 // -------- Agent Info ----------
-char agent_ip_c[] = "192.168.29.34"; // Replace with your laptop IP
+char agent_ip_c[] = "192.168.29.34";
 uint32_t agent_port = 8888;
 
 // -------- LED Pin ----------
-const int LED_PIN = 2; // Built-in LED
+const int LED_PIN = 2;
 
 // -------- micro-ROS objects ----------
 rcl_subscription_t subscriber;
